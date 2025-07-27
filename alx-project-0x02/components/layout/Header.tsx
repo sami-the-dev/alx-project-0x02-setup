@@ -3,10 +3,10 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header>
+    <header className="flex items-center justify-between p-4 bg-gray-800 text-white">
       <h1>My Website</h1>
-      <nav>
-        <ul>
+      <nav className="flex space-x-4">
+        <ul className="flex space-x-4">
           <li>
             <Link href="/home">Home</Link>
           </li>
