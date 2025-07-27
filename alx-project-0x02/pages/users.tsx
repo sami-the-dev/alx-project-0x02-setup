@@ -18,7 +18,6 @@ const users: React.FC<{ users: UserProps[] }> = ({ users }) => {
   );
 };
 
-export default users;
 export const getStaticProps = async () => {
   // Fetch users data from an API or database
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
@@ -30,3 +29,4 @@ export const getStaticProps = async () => {
     },
   };
 };
+export default users;
