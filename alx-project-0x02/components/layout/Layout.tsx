@@ -5,8 +5,8 @@ const Layout: React.FC<PropsWithChildren> = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow w-full max-w-3xl">{children}</main>
-      <footer className="w-full max-w-3xl text-center">
+      <main className="container mx-auto flex-grow w-full">{children}</main>
+      <footer className="w-full  text-center">
         <p className="text-sm">© 2023 My Website</p>
       </footer>
     </div>

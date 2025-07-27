@@ -18,3 +18,11 @@ export interface ButtonProps {
   disabled?: boolean;
   children: React.ReactNode;
 }
+
+export interface PostProps {
+  id?: string;
+  title: string;
+  content: string;
+  userId?: string;
+  onClick?: () => void;
+}
