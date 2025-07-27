@@ -1,4 +1,4 @@
-import { ButtonProps } from "@/interfaces";
+import { type ButtonProps } from "@/interfaces";
 import React, { PropsWithChildren } from "react";
 
 const Button: React.FC<PropsWithChildren<ButtonProps>> = ({
