@@ -1,9 +1,10 @@
 import Button from "@/components/common/Button";
 import React from "react";
-
+import Header from "@/components/layout/Header";
 const about = () => {
   return (
     <div>
+      <Header />
       <h1 className="text-2xl font-bold mb-4">About Us</h1>
       <p className="text-lg">
         Welcome to our website! We are dedicated to providing the best content

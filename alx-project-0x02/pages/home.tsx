@@ -1,7 +1,7 @@
 import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
 import { Post } from "@/interfaces";
-import { on } from "events";
+import Header from "@/components/layout/Header";
 import React from "react";
 
 const Posts = [
@@ -20,6 +20,7 @@ const Home = () => {
 
   return (
     <div className="container mx-auto p-4 ">
+      <Header />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {Posts.map((post, index) => (
           <Card key={index} title={post.title} content={post.content} />
