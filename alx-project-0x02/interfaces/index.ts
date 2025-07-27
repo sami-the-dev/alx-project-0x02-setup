@@ -11,3 +11,10 @@ export interface Post {
   content: string;
   createdAt: string;
 }
+export interface ButtonProps {
+  size?: "small" | "medium" | "large";
+  shape?: "rounded-sm" | "rounded-md" | "rounded-full";
+  onClick?: () => void;
+  disabled?: boolean;
+  children: React.ReactNode;
+}
